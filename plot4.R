@@ -1,5 +1,3 @@
-library(sqldf)
-
 filename <- "household_power_consumption.txt"
 
 powerdata <- read.table(filename, header=TRUE, sep=";", na.strings="?",
